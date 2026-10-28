@@ -40,7 +40,16 @@ Luego enviar valores numéricos al tema `consumo-electrico` mediante un producto
 
 ## Datos
 
-El conjunto de datos utilizado para el análisis por lotes se encuentra en la carpeta `datos` de la máquina virtual. Pendiente: agregar aquí el enlace de su fuente y las instrucciones exactas para prepararlo.
+El conjunto utilizado es **Individual Household Electric Power Consumption**, disponible en UCI Machine Learning Repository:
+
+https://doi.org/10.24432/C58K54
+
+Contiene 2.075.259 mediciones de una vivienda, registradas entre diciembre de 2006 y noviembre de 2010. La variable `Global_active_power` representa la potencia activa promedio de cada minuto, expresada en kW.
+
+Para obtener los datos, abrir el enlace, seleccionar Download, descomprimir el archivo y colocar `household_power_consumption.txt` dentro de la carpeta `datos` del proyecto.
+
+Referencia:
+Hebrail, G., & Berard, A. (2006). Individual Household Electric Power Consumption [Conjunto de datos]. UCI Machine Learning Repository. https://doi.org/10.24432/C58K54
 
 ## Preparación de los datos
 
